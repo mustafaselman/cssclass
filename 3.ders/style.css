@@ -1,0 +1,154 @@
+/* state pseudo class */
+
+/* a:link {
+    color:red;
+    background-color:yellow;
+}
+a:visited {
+    color:green;
+    background-color:cyan;
+}
+a:hover {
+    color:hotpink;
+    background-color:lightgreen;
+    font-size:24px;
+}
+a:active {
+    color:blue;
+    background-color: hotpink;
+}
+a:link, a:visited {
+
+} */
+
+/* position class */
+
+/* a:first-child {
+    text-transform: uppercase;
+}
+
+a:nth-child(odd) {
+    padding-left: 100px;
+}
+a:nth-child(2) {
+    text-shadow: 1px 1px 1px black;
+}
+a:not(a:last-child) {
+    font-family:fantasy;
+} */
+
+/* css list */
+
+/* ul.a {
+    list-style-type:circle;
+    list-style-position: inside;
+}
+ul.b {
+    list-style-type:square
+}
+ol.c {
+    list-style-type:upper-alpha;
+    list-style-image: url('search.png');
+    list-style-position: inside;
+}
+
+ol.d {
+    list-style-type:none
+} */
+
+/* css tables */
+
+/* table, th, td {
+    border: 1px solid black;
+}
+table {
+    width:100%;
+    border-collapse:collapse;
+}
+
+th, td{
+    height:70px;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+
+tr.a:nth-child(odd) {
+    background-color:rgba(206, 192, 192, 0.904);
+}
+
+tr.a:hover {
+   background-color:coral; 
+} */
+
+
+/* css display */
+
+/* li {
+    display:inline;
+}
+span {
+    display: block;
+} */
+
+/* h1.hidden {
+    display:none;
+} */
+/* h1.hidden {
+    visibility:hidden;
+} */
+
+/* span.a {
+    display:inline;
+    width: 100px;
+    height:100px;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+span.b {
+    display:block;
+    width: 100px;
+    height:100px;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+span.c {
+    display:inline-block;
+    width: 100px;
+    height:100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+} */
+
+/* eğer sadece width ve height kullanmak istiyor fakat alt satıra geçmesini istemiyorsak inline-block kullanılır; */
+/* inline elementlerde padding sağlıklı çalışmaz. normalde dikeyde aşağı kaydırması gerekirken kaydırma yapmaz */
+/* inline elementlerde margin sadece yatay istikamette/boyutta çalışır */
+
+/* css position */
+
+div.box1 {
+    width:100px;
+    height:100px;
+    background-color:yellow;
+    position:relative;
+    left:25px;
+}
+div.box2 {
+    width:100px;
+    height:100px;
+    background-color:red;
+    position:absolute;
+    left:50px;
+}
+div.box3 {
+    width:100px;
+    height:100px;
+    background-color:blue;
+    position:static;
+    left:25px;
+}
