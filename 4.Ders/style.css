@@ -170,7 +170,7 @@ div.transformy:hover {
 div.transformxy:hover {
     transform: scale(0.5,0.5)
 } */
-div.transformx:hover {
+div.transformx:active {
     transform: skewX(20deg)
 }
 div.transformy:hover {
