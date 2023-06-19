@@ -1,0 +1,181 @@
+div {
+    /* width:200px;
+    height:200px;
+    background-color:yellow;
+    overflow-wrap:break-word; */
+    /* overflow-x:hidden; */
+    /* overflow-y:scroll;  */
+}
+
+/* div {
+    width:300px;
+    height:100px;
+    overflow:hidden;
+    border: 1px solid black;
+    text-overflow:ellipsis;
+} */
+
+/* .div1 {
+    background: red;
+    float: right;
+    padding:15px;
+}
+.div2 {
+    background: yellow;
+    float:right;
+    padding:15px;
+}
+.div3 {
+    background: green;
+    padding:15px;
+    float:left;
+}
+p {
+    clear:both;
+}
+
+p::first-line {
+    color: red;
+    font-variant:small-caps;
+}
+p::first-letter {
+    color:blue;
+    font-size: xx-large;
+}
+p::before {
+    content: 'Paragraf başlamadan yazılacak metin';
+    color:blueviolet;
+}
+p::after {
+    content: 'Paragraf biterken yazılacak metin';
+    color:blueviolet;
+}
+p::selection {
+    color:red;
+    background:yellow;
+} */
+
+/* css attribute selectors  */
+
+/* a[target] {
+    background-color:yellow;
+} */
+
+/* a[target="_blank"] {
+    background-color:red;
+} */
+
+/* [href~='https://metaworldbilisim.com'] {
+    border: 1px solid black
+} */
+/* [class*='site'] {
+    border: 5px solid black
+} */
+
+/* başlangıç değeri olarak kabul eder */
+/* [class^="search"] {
+    background:yellow;
+} */
+
+/* sonuç değeri olarak kabul eder */
+/* [class$="search"] {
+    background:yellow;
+} */
+
+/* input[type="text"]:focus {
+    background-color:aqua;
+}
+input[type="button"]:hover {
+    background-color:red;
+    color:white;
+}
+input[value="click here"]:active {
+    background-color:blue;
+}
+
+* {
+    box-sizing:border-box;
+} */
+
+/* div{
+    width:300px;
+    height:300px;
+    padding:20px;
+    margin:20px;
+    background-color:red;
+} */
+
+/* div {
+    width:100px;
+    height:100px;
+    background-color:red;
+    color:white;
+    text-align:center;
+    margin:20px;
+    padding:10px;
+    box-sizing:border-box;
+    transition: width 2s;
+    transition-delay: 1s;
+}
+
+div.a:hover {
+    width:200px;
+}
+div.b:hover {
+    background-color:white;
+    color:blue;
+    border:1px solid blue;
+}
+div.c:hover {
+    border: 10px solid black;
+    outline: 10px solid blue;
+} */
+
+div {
+    width:100px;
+    height:100px;
+    background-color:blue;
+    color:white;
+    text-align:center;
+    margin:20px;
+    padding:10px;
+    box-sizing:border-box;
+    transition: all 2s;
+}
+
+/* div.transformx:hover {
+    transform: translateX(100px);
+}
+div.transformy:hover {
+    transform: translateY(100px);
+}
+div.transformxy:hover {
+    transform: translate(100px, 100px);
+} */
+/* div.transformx:hover {
+    transform: rotateX(180deg);
+}
+div.transformy:hover {
+    transform: rotateY(180deg);
+}
+div.transformxy:hover {
+    transform: rotate(180deg);
+} */
+/* div.transformx:hover {
+    transform: scaleX(2)
+}
+div.transformy:hover {
+    transform: scaleY(2)
+}
+div.transformxy:hover {
+    transform: scale(0.5,0.5)
+} */
+div.transformx:hover {
+    transform: skewX(20deg)
+}
+div.transformy:hover {
+    transform: skewY(20deg)
+}
+div.transformxy:hover {
+    transform: skew(20deg, 20deg)
+}

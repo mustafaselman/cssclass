@@ -131,7 +131,7 @@ span.c {
 
 /* css position */
 
-div.box1 {
+/* div.box1 {
     width:100px;
     height:100px;
     background-color:yellow;
@@ -151,4 +151,51 @@ div.box3 {
     background-color:blue;
     position:static;
     left:25px;
+}
+
+div.kırmızı {
+    width:400px;
+    height:400px;
+    background-color:red;
+    margin-top:60px;
+    position:relative;
+}
+div.mavi {
+    width:100px;
+    height:100px;
+    background-color:blue;
+    position:absolute;
+    top:calc(50% - 50px);
+    left:calc(50% - 50px);
+} */
+
+/* z-index */
+
+div.box1 {
+    width:100px;
+    height:100px;
+    background-color: yellow;
+    position: absolute;
+    left:25px;
+    top:25px;
+    z-index:26;
+}
+
+div.box2 {
+    width:100px;
+    height:100px;
+    background-color: red;
+    position: absolute;
+    left:55px;
+    top:50px;
+    z-index:25;
+}
+
+div.box3 {
+    width:100px;
+    height:100px;
+    background-color: blue;
+    position: absolute;
+    left:75px;
+    top:75px;
 }
