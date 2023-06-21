@@ -1,0 +1,64 @@
+/* div {
+    width:100px;
+    height:100px;
+    background-color:red;
+    position:relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction:alternate;
+    animation-fill-mode:forwards;
+} */
+
+/* @keyframes example {
+    from {background-color:red;}
+    to {background-color:yellow;}
+} */
+/* @keyframes example {
+    0% {background-color:red;}
+    25% {background-color:yellow;}
+    50% {background-color:blue;}
+    100% {background-color:green;}
+} */
+/* @keyframes example {
+    0% {background-color:red;left:0px;top:0px;}
+    25% {background-color:yellow;left:200px;top:0px;}
+    50% {background-color:blue;left:200px;top:200px;}
+    75% {background-color:green;left:0px;top:200px;}
+    100% {background-color:black;left:0px;top:0px;}
+} */
+
+/* media query */
+
+/* * {
+    box-sizing:border-box;
+}
+
+.column {
+    float:left;
+    width:25%;
+    padding: 20px;
+}
+
+.row::after {
+    clear:both;
+    content: "";
+    display:table;
+}
+
+@media (max-width:600px) {
+    .column {
+        width:100%;
+        color:red;
+    }
+}
+
+@media (min-width:600px) and (max-width:900px) {
+    .column {
+        width:50%;
+        color:blue;
+    }
+} */
+
+
